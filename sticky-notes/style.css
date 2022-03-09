@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Comfortaa:wght@500&family=Neucha&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 24px;
+  background: #c68c53a8;
+}
+
+.main-container {
+  width: 95%;
+  margin: auto;
+}
+
+.container1 {
+  margin-left: 5%;
+
+}
+
+.container2 {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: 5%;
+}
+
+.container3 {
+  display: none;
+  position: absolute;
+  top:26%;
+  left: 40%;
+}
+
+textarea {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 24px;
+  box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.75);
+  outline: none;
+  border: none;
+  width: 275px;
+  height: 275px;
+  padding: 40px 25px 25px 25px;
+}
+
+form button {
+  position: absolute;
+  transition: transform .4s;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+  background: none;
+}
+
+.btn-check {
+  background-image: url('./img/svg/tick.svg');
+  left: 45%;
+  bottom: 5%;
+}
+
+.btn-close {
+  background-image: url('./img/svg/cross.svg');
+  top: 3%;
+  right: 5%;
+}
+
+.btn-check:hover,
+.btn-close:hover {
+  transform: scale(1.2);
+}
+
+
+
+.btn-note {
+  font-family: 'Comfortaa', cursive;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  background: rgb(151, 151, 238);
+  color: #fff;
+  cursor: pointer;
+  transition: background .4s linear;
+  margin-top: 10px;
+}
+
+.btn-note:hover {
+  background: rgb(87, 87, 122);
+}
+
+.btn-note:active {
+  background: rgb(151, 151, 238);
+}
